@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import List from './List';
-import STORE from './STORE';
+import STORE from './store';
 import './App.css';
-import store from './STORE';
 
 const newRandomCard = () => {
   const id = Math.random().toString(36).substring(2, 4)
